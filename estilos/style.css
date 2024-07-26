@@ -9,3 +9,48 @@ paleta de cores
 #000000 - preto
 */
 
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: #E0D7ED;
+    height: 100vh;
+    width: 100vw;
+}
+
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: #FFFFFF;
+    width: 250px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.490);
+}
+
+#image{
+    display: block;
+    background: #E0D7ED url(../imagens/pexels-jessbaileydesign-1119793\(2\).jpg) no-repeat;
+    background-size: cover;
+    background-position: left top;
+    height: 200px;
+}
+
+#form{
+    display: block;
+    padding: 15px;
+}
+
