@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*TYPICAL DEVICE BREAKPOINTS 
+----------------------------------------------------------------
+Large devices (laptops/desktops, 992px and up)
+@media only screen and (min-width: 992px)
+Extra large devices (large laptops and desktops, 1200px and up)
+@media only screen and (min-width: 1200px)
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    
+    body{
+        background-image: linear-gradient(to top, #715598, #E0D7ED);
+    }
+    
+    #login{
+        width: 85vw;
+    }
+
+    #login > #image{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    #login > #form{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px){
+
+    body{
+        background-image: linear-gradient(to top, #715598, #E0D7ED);
+    }
+
+    #login{
+        width: 950px;
+    }
+
+    #login > #image{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #login > #form{
+        float: right;
+        width: 50%;
+    }
+}
